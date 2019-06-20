@@ -1,0 +1,48 @@
+main {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+section {
+   background-color: aquamarine;
+   padding: 10px;
+   margin-bottom: 15px;
+   border-radius: 10px;
+
+}
+
+header {
+    color: #6F73D2;
+    background-color: #E8EBE4;
+    text-align: center;
+}
+
+body {
+    background-color: grey;
+
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+    padding-top: 0px;
+}
+
+#about {
+    background-color: #B8BACF
+}
+
+/* id tags use a hashtag #'name of id marker in html page', only one id
+per webpage; can have multiple instances across a set of pages */
+
+.info ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.text-light {
+    color: #99621E;
+}
+
