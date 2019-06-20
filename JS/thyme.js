@@ -1,3 +1,6 @@
+// Morning section code!!! events and DOM manipulation
+
+
 console.log('check console');
 
 const random = [    'Molly', 'Mark', 'Tim', 'Sean',

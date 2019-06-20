@@ -12,15 +12,32 @@
 <body>
     <header><h1>Playfair</h1></header>
     <main>
-        <h2>Students</h2>
-        <ul id="students"> 
+        <section>
+                <h2>Students</h2>
+            <ul id="students"> 
             <!-- jQuery will fill this in -->
 
-        </ul>
+            </ul>
+        </section>
+        <section>
+                <h2>Task List</h2>
+                <h3>Add Task</h3>
+                <form>
+                    <label >Task Name:</label>
+                    <input id="task-name" type="type" />
+                    <button id="add-task" type="submit">Add Task</button>
+                </form>
+
+                <h3>All Tasks</h3>
+                <ul id="task-list"> 
+                    <!-- jQuery will fill this in with info from the form -->
+                </ul>
+        </section>
     </main>
 
     <script src="js/jquery-3.4.1.min2.js"></script>
-    <script src="js/client.js"></script>
+    <script src="js/thyme.js"></script>
+    <script src="js/cilantro.js"></script>
 </body>
 
 </html>
